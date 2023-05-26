@@ -73,14 +73,23 @@
     }
 }
 
+main {
+    padding-top: 76px;
+    padding-bottom: 140px;
+}
+
 .banner {
     &-content {
         & h1 {
             font-size: 110px;
+            line-height: (138px/110px);
+            text-transform: uppercase;
+            font-weight: 900;
         }
         & p {
             @include font-24;
             margin-bottom: 24px;
+            font-weight: 700;
         }
         & span {
             font-size: 18px;
@@ -92,6 +101,16 @@
                 margin-bottom: 24px;
             }
         }
+    }
+    &-img {
+        width: 755px;
+        margin-left: 60px;
+    }
+}
+
+.ordinals {
+    & img {
+        transform: scaleX(-1);
     }
 }
 

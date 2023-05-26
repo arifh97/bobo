@@ -15,7 +15,8 @@ const Home = () => {
                   <a href="#/" className="site-btn bg-black">BUY NOW</a>
                   <ul>
                     <li><a href="/#"></a></li>
-                  </ul></div>
+                  </ul>
+                </div>
               </Col>
               <Col md={6}>
                 <div className="banner-img">
