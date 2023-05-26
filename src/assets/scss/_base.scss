@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: (26px/16px);
+    color: $text;
+    @include linearGradient;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    @include transition;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    @include transition;
+}
+
+
+/*Hide number spin button*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.site-btn {
+    display: inline-block;
+    border-radius: 100px;
+    background-color: $white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(20px/16px);
+    color: $primary !important;
+    padding: 12px 18px;
+    &:hover {
+        background-color: $black;
+        columns: $white !important;
+    }
+    &.bg-black {
+        color: $white !important;
+        padding: 12px 18px;
+        min-height: 60px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: $white;
+            color: $white !important;
+        }
+    }
+}
