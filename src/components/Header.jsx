@@ -27,9 +27,9 @@ export default function Header() {
                     <Col md={6} className={`text-center heading-mobileMenu ${isNavVisible ? 'show' : ''}`}>
                         <div className="heading-menu text-center">
                             <ul>
-                                <li><NavLink to='/'>HOME</NavLink></li>
-                                <li><NavLink to="/nfts" >NFTS</NavLink></li>
-                                <li><NavLink to="/ordinals">ORDINALS</NavLink></li>
+                                <li><NavLink to='/' onClick={toggleNav}>HOME</NavLink></li>
+                                <li><NavLink to="/nfts" onClick={toggleNav}>NFTS</NavLink></li>
+                                <li><NavLink to="/ordinals" onClick={toggleNav}>ORDINALS</NavLink></li>
                                 <li className="d-md-none"><a href="/#" className="site-btn">BUY BOBO</a></li>
                             </ul>
                         </div>
