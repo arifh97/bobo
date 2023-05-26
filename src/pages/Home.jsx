@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import { Container, Row , Col} from 'react-bootstrap';
 import img from '../assets/img/banner-img.png'
+import icon1 from '../assets/img/1.png';
+import icon2 from '../assets/img/2.png';
+import icon3 from '../assets/img/3.png';
+import icon4 from '../assets/img/4.png';
 
 const Home = () => {
     return (
@@ -14,7 +18,10 @@ const Home = () => {
                   <span className='d-block'>ABSOLUTELY EPIC AND UNIQUE</span>
                   <a href="#/" className="site-btn bg-black">BUY NOW</a>
                   <ul>
-                    <li><a href="/#"></a></li>
+                    <li><a href="/#"><img src={icon1} alt="" /></a></li>
+                    <li><a href="/#"><img src={icon2} alt="" /></a></li>
+                    <li><a href="/#"><img src={icon3} alt="" /></a></li>
+                    <li><a href="/#"><img src={icon4} alt="" /></a></li>
                   </ul>
                 </div>
               </Col>
