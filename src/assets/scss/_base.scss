@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 700;
     margin: 0 0 10px;
 }
 
@@ -83,7 +83,7 @@ input[type=number] {
         align-items: center;
         &:hover {
             background-color: $white !important;
-            color: $white !important;
+            color: $primary !important;
         }
     }
 }

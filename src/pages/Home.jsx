@@ -7,7 +7,7 @@ const Home = () => {
         <main className="banner">
           <Container>
             <Row className='align-items-center'>
-              <Col md={6}>
+              <Col xl={6}>
                 <div className="banner-content">
                   <h1>Behold!</h1>
                   <p>The last BOBO bear inscribed on the bsc Networtk</p>
@@ -18,7 +18,7 @@ const Home = () => {
                   </ul>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col xl={6}>
                 <div className="banner-img">
                   <img src={img} alt="" />
                 </div>

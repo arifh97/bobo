@@ -4,7 +4,7 @@ import img from '../assets/img/banner-img.png'
 
 const Ordinals = () =>  {
     return (
-        <main className="ordinals mt-4 mt-md-5">
+        <main className="ordinals mt-md-5">
           <Container>
             <Row className='justify-content-center'>
               <Col lg={8} className='text-center'>
